@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+       android:id="@+id/menu_edit"
+       android:icon="@mipmap/ic_action_content"
+       android:showAsAction="ifRoom"
+       android:title ="Выборка"/>
+  <item
+       android:id="@+id/menu_add"
+       android:icon="@mipmap/ic_action_content_save"
+       android:showAsAction="ifRoom"
+       android:title ="Добавить"/>
+  <item
+       android:id="@+id/menu_delete"
+       android:icon="@mipmap/ic_action_content_delete"
+       android:showAsAction="ifRoom"
+       android:title ="Удалить"/>
+</menu>

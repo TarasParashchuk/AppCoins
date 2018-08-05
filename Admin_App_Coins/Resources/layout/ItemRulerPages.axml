@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<admin_app_coins.CustomLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/Layout_ruler_item"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/imagebordercoins"
+    android:padding="8dp">
+    <ffimageloading.views.ImageViewAsync
+      android:id="@+id/ImageRuler"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_gravity="center"
+        android:layout_width="110dp"
+        android:layout_height="110dp" />
+    <TextView
+        android:id="@+id/Text_Name_Ruler"
+        android:text="text"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/Text_Ruler_Year"
+        android:text="text"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</admin_app_coins.CustomLinearLayout>

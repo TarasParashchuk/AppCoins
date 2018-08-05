@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Layout_newperiod"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:padding="10dp">
+    <LinearLayout
+        android:id="@+id/ScrollView_Period"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/Layout_add_period_item"
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/_Icon_Flag_Period"
+                android:text="Загрузить лого"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ffimageloading.views.ImageViewAsync
+                android:id="@+id/ImageAddPeriodFlag"
+                android:src="@drawable/flag"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="120dp"
+                android:layout_alignParentRight="true" />
+            <ffimageloading.views.ImageViewAsync
+                android:id="@+id/ImageAddPeriodEmblem"
+                android:src="@drawable/emblem"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/_Name_Period"
+            android:text="Название периода"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/Name_Period"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/_Period"
+            android:text="Период"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/Period"
+            android:textColor="@android:color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+        <Button
+            android:text="Сохранить"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/SaveAddPeriod" />
+        <Button
+            android:text="Отмена"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CancelAddPeriod" />
+    </LinearLayout>
+</ScrollView>

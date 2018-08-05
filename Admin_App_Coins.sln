@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin_App_Coins", "Admin_App_Coins\Admin_App_Coins.csproj", "{0B739FA9-7A19-4E6F-A71F-E590B6B2D37E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B739FA9-7A19-4E6F-A71F-E590B6B2D37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B739FA9-7A19-4E6F-A71F-E590B6B2D37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B739FA9-7A19-4E6F-A71F-E590B6B2D37E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0B739FA9-7A19-4E6F-A71F-E590B6B2D37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B739FA9-7A19-4E6F-A71F-E590B6B2D37E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B739FA9-7A19-4E6F-A71F-E590B6B2D37E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0525925A-561B-4319-90E2-CCC7E675EBA3}
+	EndGlobalSection
+EndGlobal
